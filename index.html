@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlaytor</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/output-onlinepngtools.png" type="image/x-icon">
+</head>
+
+<body>
+    
+  <div class="logo">
+    <img class="logo-image" src="assets/$.png">
+  </div>
+  
+  <div class="form">
+      <h1 class="form-title">Olá!<br>Vamos calcular seus investimentos?</h1>
+      
+      <p class="form-text">Quanto você deseja investir inicialmente?</p>
+      <input type="number" class="form-input" id="capital-inicial" placeholder="R$ 0,00">
+      
+      <p class="form-text">De quanto seria a taxa de juros?</p>
+      <input type="number" class="form-input" id="taxa" placeholder="0,0%">
+      
+      <p class="form-text">Quanto deseja aplicar mensalmente?</p>
+      <input type="number" class="form-input" id="aporte" placeholder="R$ 0,00">
+      
+      <p class="form-text">Qual seria o prazo (meses)?</p>
+      <input type="number" class="form-input" id="prazo" placeholder="0">
+      
+      <button type="button" class="form-button" id="calculate">Simular Investimento</button>
+  </div>
+    
+    <p class="copy">2025 - Vicente Developer &copy;</p>
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
