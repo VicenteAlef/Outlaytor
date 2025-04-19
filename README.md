@@ -23,7 +23,7 @@ O **Outlaytor** é uma calculadora de investimentos desenvolvida com **HTML, CSS
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/outlaytor.git](https://github.com/VicenteAlef/Outlaytor.git)
+   git clone https://github.com/VicenteAlef/Outlaytor.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
